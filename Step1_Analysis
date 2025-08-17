@@ -1,0 +1,26 @@
+Q1: What feature must the feeder include?
+A1: - Manual button
+       - Set scheduled times
+       - Dispense food for pet at scheduled times
+   - Monitor food consumption using sensors
+                     Infrared sensors monitor the volume of food
+                     Weight sensors monitor the weight of food
+   - Alert staff 
+                     If food empty
+                     If no consumption
+
+Q2: What inputs and outputs are needed?
+A2: Inputs 
+                 - Set scheduled times
+                 - Food consumption such as weight and volume
+                 - Manual button
+Outputs 
+                - Food dispensing
+                - Alerts about food consumption and eaten situation
+
+
+
+
+Q3: What are possible assumptions or limitations?
+A2: Single pet food can be supported
+        If have two or more pets, it cannot alert which one has eaten this food
