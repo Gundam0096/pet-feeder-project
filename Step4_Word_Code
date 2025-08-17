@@ -1,0 +1,10 @@
+INPUT: Feeding Time, Food Level, Bowl Weight
+OUTPUT: Rotate Motor, Alert
+
+IF {Feeding Time = [8,18] & Food Level = 1 & Bowl Weight =1
+Rotate Motor Start!!!
+  IF {Bowl Weight = 0
+Alert!!!
+}
+}
+THEN Alert!!!
